@@ -1,0 +1,30 @@
+{
+ "app": "KLIPO",
+ "version": "1.4",
+ "released": 1791370604,
+ "channel": "feature",
+ "notes": "• Giao diện gọn cho laptop, cột thiết lập tự thu gọn khi cửa sổ hẹp\n• Tải Douyin ổn định hơn: tự nghỉ rồi thử lại, có nút xác minh bằng tay\n• Dịch Google ít bị chặn hơn: tự đổi cổng, tự dịch lại\n• Giọng đọc được đặt tên và sắp xếp lại, Whisper nằm trong mục Nâng cao\n• Tự cập nhật qua mạng",
+ "files": [
+  {
+   "name": "KLIPO.py",
+   "url": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4/KLIPO.py.enc",
+   "sha256": "92761064a7b5383d244b64ebe25931e54f8c01504e05444bba43416c07d32417",
+   "size": 222647,
+   "enc": 1,
+   "psha256": "8702bac53594ad293c8dd1aba39a47038e6dadb788204c03aa3946823c18c166",
+   "psize": 789115
+  },
+  {
+   "name": "icon.ico",
+   "url": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4/icon.ico.enc",
+   "sha256": "8a48633640afcf056fc4a5c3180fea0941a36a7235894f724c305d72bfcc0769",
+   "size": 22292,
+   "enc": 1,
+   "psha256": "be2849fcbbb2b3fe077f1ccda97d97f592b82b643493a08dbf67ab465c81ac42",
+   "psize": 22409
+  }
+ ],
+ "pip": [],
+ "keys": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4/keys.json",
+ "sig": "6ohYoRLAZm3P+cVOOXM7WsZnIrfo3hTBB7igvBDXTo0nQ4Q2/38Vm4jhsTDCB34r70npgHlk8HWdp/LYskN4Bw=="
+}

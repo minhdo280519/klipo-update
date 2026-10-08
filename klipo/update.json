@@ -1,23 +1,23 @@
 {
  "app": "KLIPO",
- "version": "1.4",
- "released": 1791370604,
- "channel": "feature",
- "notes": "• Giao diện gọn cho laptop, cột thiết lập tự thu gọn khi cửa sổ hẹp\n• Tải Douyin ổn định hơn: tự nghỉ rồi thử lại, có nút xác minh bằng tay\n• Dịch Google ít bị chặn hơn: tự đổi cổng, tự dịch lại\n• Giọng đọc được đặt tên và sắp xếp lại, Whisper nằm trong mục Nâng cao\n• Tự cập nhật qua mạng",
+ "version": "1.4.1",
+ "released": 1791463194,
+ "channel": "fix",
+ "notes": "• Sửa lỗi tải mô hình nhận giọng Whisper: đứt mạng giữa chừng thì tải TIẾP từ chỗ đứt, không tải lại từ đầu cho từng video\n• Không có mô hình thì dừng gọn và báo rõ nguyên nhân (không lặp lại hàng trăm lần); nút DỪNG ngắt được cả lúc đang tải\n• Quét lại hoặc đổi mô hình thì thử lại ngay; tự bỏ qua proxy cục bộ bị hỏng khi tải mô hình",
  "files": [
   {
    "name": "KLIPO.py",
-   "url": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4/KLIPO.py.enc",
-   "sha256": "92761064a7b5383d244b64ebe25931e54f8c01504e05444bba43416c07d32417",
-   "size": 222647,
+   "url": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4.1/KLIPO.py.enc",
+   "sha256": "5b177408c012e51d4e1c6cc809773f8ba3339a71b3f0bc8fc25cade8f3c1ce04",
+   "size": 231455,
    "enc": 1,
-   "psha256": "8702bac53594ad293c8dd1aba39a47038e6dadb788204c03aa3946823c18c166",
-   "psize": 789115
+   "psha256": "0a2f6605cb51de18438ce3a2983ebe8aff3279347f91156a05b6c1f8ff3aa22b",
+   "psize": 820986
   },
   {
    "name": "icon.ico",
-   "url": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4/icon.ico.enc",
-   "sha256": "8a48633640afcf056fc4a5c3180fea0941a36a7235894f724c305d72bfcc0769",
+   "url": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4.1/icon.ico.enc",
+   "sha256": "99f4702377e8af836df5be84040997c4d1261ce02099338b6eb8ce5491154ad3",
    "size": 22292,
    "enc": 1,
    "psha256": "be2849fcbbb2b3fe077f1ccda97d97f592b82b643493a08dbf67ab465c81ac42",
@@ -25,6 +25,6 @@
   }
  ],
  "pip": [],
- "keys": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4/keys.json",
- "sig": "6ohYoRLAZm3P+cVOOXM7WsZnIrfo3hTBB7igvBDXTo0nQ4Q2/38Vm4jhsTDCB34r70npgHlk8HWdp/LYskN4Bw=="
+ "keys": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4.1/keys.json",
+ "sig": "nUdf5MFZPmZO669sMWIy6NFL0yPBdMI8+RiyJB5BYA4ZgkPsQyvb8MDcb4SrT6HFF2aLw48TaBnUsaVP6BQ5CA=="
 }

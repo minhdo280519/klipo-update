@@ -1,23 +1,41 @@
 {
  "app": "KLIPO",
- "version": "1.4.1",
- "released": 1791463194,
- "channel": "fix",
- "notes": "• Sửa lỗi tải mô hình nhận giọng Whisper: đứt mạng giữa chừng thì tải TIẾP từ chỗ đứt, không tải lại từ đầu cho từng video\n• Không có mô hình thì dừng gọn và báo rõ nguyên nhân (không lặp lại hàng trăm lần); nút DỪNG ngắt được cả lúc đang tải\n• Quét lại hoặc đổi mô hình thì thử lại ngay; tự bỏ qua proxy cục bộ bị hỏng khi tải mô hình",
+ "version": "1.4.7",
+ "released": 1792336042,
+ "channel": "feature",
+ "notes": "• Xóa chữ Trung cả video: tiêu đề / nhãn hiện giữa chừng cũng được tìm và xóa đúng lúc; xuất xong app tự soát lại và báo nếu còn sót\n• 📺 Kênh: mỗi kênh có logo, hiệu ứng, thư mục xuất và kiểu thumbnail riêng; chọn dãy video (Shift hoặc theo số thứ tự) rồi chạy MỘT lần ra nhiều kênh\n• Thumbnail và khung đầu video cũng được xóa chữ gốc; logo / tên kênh chạy ngẫu nhiên (trôi hoặc nhảy chỗ)\n• Che chữ gốc chắc chắn hơn: xóa thử rồi đọc lại, chưa sạch thì tự phủ mờ; phụ đề Việt không đè lên chữ gốc\n• Xóa chữ viền xám và chữ Trung cố định; đổi tên file xuất (vi / en / th / es / id) kèm số tập phim\n• 🔗 Ghép nhiều video thành một; hiệu ứng ngẫu nhiên theo đoạn (tăng tốc, tối + hạt); AI viết nội dung đăng bài cho TikTok / Facebook / Instagram / YouTube Shorts\n• Nhiều API key Gemini / OpenAI: hết lượt hoặc sai thì tự chuyển sang key kế\n• Tab LOGO & HIỆU ỨNG, lọc video theo sản phẩm, bỏ đoạn không có lời thoại, giao diện tiếng Anh / Tây Ban Nha\n• Sửa lỗi: xuất video lỗi khi tên Windows có dấu, bảng nội dung đăng bài mất chữ, xếp tập theo số, rò rỉ bộ nhớ ảnh, nút hàng chờ tải bị cắt, giọng đọc dùng khoảng lặng",
  "files": [
   {
    "name": "KLIPO.py",
-   "url": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4.1/KLIPO.py.enc",
-   "sha256": "5b177408c012e51d4e1c6cc809773f8ba3339a71b3f0bc8fc25cade8f3c1ce04",
-   "size": 231455,
+   "url": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4.7/KLIPO.py.enc",
+   "sha256": "590bc75e7397c317090adbbec03731d4131de95adb0bf20714aa2676b1d88eae",
+   "size": 398187,
    "enc": 1,
-   "psha256": "0a2f6605cb51de18438ce3a2983ebe8aff3279347f91156a05b6c1f8ff3aa22b",
-   "psize": 820986
+   "psha256": "f283be806a6c5942be709a5590ee7fcb6a37207b64a0b565dc0b22b29d3b3aec",
+   "psize": 1388027
+  },
+  {
+   "name": "klipo_lang.py",
+   "url": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4.7/klipo_lang.py.enc",
+   "sha256": "e2e1d0fb7a4b69720015538c8aed5ce14def9b8fcaa5a71b09d3ba354ef17760",
+   "size": 138022,
+   "enc": 1,
+   "psha256": "ac8c714a1b5c631c21cc754c901cc660a8d3afd396731efc12ee12c68b84b547",
+   "psize": 467860
+  },
+  {
+   "name": "klipo_vad_model.txt",
+   "url": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4.7/klipo_vad_model.txt.enc",
+   "sha256": "c931aad83bab0d5a15c557ef5ffa95f3e6a59a4aac144ce3101abc0c0389353f",
+   "size": 2154851,
+   "enc": 1,
+   "psha256": "bb67568bf38f6ecb401ce497072a1bdcc757126f9fa8985021a78046e5a23d06",
+   "psize": 3103368
   },
   {
    "name": "icon.ico",
-   "url": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4.1/icon.ico.enc",
-   "sha256": "99f4702377e8af836df5be84040997c4d1261ce02099338b6eb8ce5491154ad3",
+   "url": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4.7/icon.ico.enc",
+   "sha256": "2aecbeed1f0f6be5c3764e6a502fbfbc1a8dc67faaf02f5e7b671e17ec76efa8",
    "size": 22292,
    "enc": 1,
    "psha256": "be2849fcbbb2b3fe077f1ccda97d97f592b82b643493a08dbf67ab465c81ac42",
@@ -25,6 +43,6 @@
   }
  ],
  "pip": [],
- "keys": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4.1/keys.json",
- "sig": "nUdf5MFZPmZO669sMWIy6NFL0yPBdMI8+RiyJB5BYA4ZgkPsQyvb8MDcb4SrT6HFF2aLw48TaBnUsaVP6BQ5CA=="
+ "keys": "https://raw.githubusercontent.com/minhdo280519/klipo-update/main/klipo/v1.4.7/keys.json",
+ "sig": "Ft7J47O3+UCuV1zXMHdoKir0yXfw6q52G1pVbMbVn1OoNP5W10a1QGDAP7Z3WAMxg39Rte6oBcu5JAu4bSbrDQ=="
 }
